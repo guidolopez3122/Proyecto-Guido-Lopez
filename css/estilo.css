@@ -1,466 +1,490 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-/* aspectos del CSS en comun */
-body{
-    background-color: #e1d6d3;
-        
-}
-h1{
-    color: #302B2D;
-    text-align: center;
-    font-family: "Gloock", serif;
-    font-style: normal;
-    font-size: xx-large;
-    padding: 10px;
-}
-h2{
-    padding: 10px;
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-size: x-large;
-    font-style: normal;
-    text-align: center;
 
+body {
+  background-color: #e1d6d3;
 }
-/* cierra aspectos del CSS comun */
 
-/* comienza CSS de la navbar */
-.nav{
-    background-color: #302B2D;
-    width: 100%;
-    height: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+h1 {
+  color: #302B2D;
+  text-align: center;
+  font-family: "Gloock", serif;
+  font-style: normal;
+  font-size: xx-large;
+  padding: 10px;
 }
-.logo img{
-    width: 105px;
-    height: 105px;
-    padding: 10px;
-}
-.menu{
-    list-style-type: none;
-    display: flex;
-    padding: 5px;
-}
-.link{
-    color:#dab89d ;
-    text-decoration: none;
-    padding: 1rem;
-    text-align: center;
-    font-family: "Gloock", serif;
-    font-weight: 5px;
-    font-style: normal;
-}
-.link:hover{
-    background-color: #dab89d;
-    color: #302B2D;
-    border-radius: 10px;
-}
-/* termina CSS navbar */
 
-/* comienza CSS home */
-.encabezado p{
-    color: #A47C66;
-    padding: 20px;
-    text-align: center;
-    line-height: 2.0;
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
+h2 {
+  padding: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-size: x-large;
+  font-style: normal;
+  text-align: center;
 }
-#carouselExample{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
 
+h3 {
+  padding: 10px;
+  font-family: "Gloock", serif;
+  font-optical-sizing: auto;
+  font-size: large;
+  text-align: center;
 }
-.carousel-inner{
-    width: 60vw;
-    height: 70vh;
-}
-/* termina CSS home */
 
-/* comienza CSS footer */
-footer{
-    width: 100%;
-    height: 210px;
-    background: rgb(48,43,45);
-    background: linear-gradient(90deg, rgba(48,43,45,1) 0%, rgba(164,124,102,1) 35%, rgba(225,221,211,1) 100%);
-    padding: 20px;
-    padding-left: 150px;
-    border:solid #302B2D 5px;
-    list-style-type: none;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.nav {
+  background-color: #302B2D;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.logofooter{
-    width: 120px;
-    height: 120px;
-}
-.redes{
-    list-style-type: none;
-}
-.insta{
-    padding: 5px;
-}
-.twitter{
-    padding: 5px;
-}
-.facebook{
-    padding: 5px;
-}
-.frasefooter{
-    font-family: "Gloock", serif;
-    font-weight: 800;
-    font-style: normal;
-}
-/* termina CSS footer */
 
-/* comienza CSS shop online */
-.galeria{
-    display: flex;
-    justify-content: space-evenly;
+.logo img {
+  width: 105px;
+  height: 105px;
+  padding: 10px;
 }
-.card{
-    width: 18rem;
-    background-color:#A47C66;
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-size:large;
-    color: #302B2D;
-    margin: 10px;
-    border: solid 3px;
-    display: flex;
-    align-items: center;
-}
-.item1{
-    width:17.7rem;
-    border-radius: 5px;
-    transition: transform 0.3s ease;  
-}
-.item2{
-    width:17.7rem;
-    border-radius: 5px;
-    transition: transform 0.3s ease;  
-}
-.item3{
-    width:17.7rem;
-    border-radius: 5px;
-    transition: transform 0.3s ease;  
-}
-.item4{
-    width:17.7rem;
-    border-radius: 5px;
-    transition: transform 0.3s ease;  
-}
-.item5{
-    width:17.7rem;
-    border-radius: 5px;
-    transition: transform 0.3s ease;  
-}
-.item6{
-    width:17.7rem;
-    border-radius: 5px;
-    transition: transform 0.3s ease;  
-}
-.item1:hover{
-            transform: scale(1.1);
-            filter: brightness(120%);
-            content: url(../multimedia/basicablanca2.jpeg);  
-}
-.item2:hover{
-    transform: scale(1.1);
-    filter: brightness(120%);
-    content: url(../multimedia/sueterrosa2.jpeg);
-}
-.item3:hover{
-    transform: scale(1.1);
-    filter: brightness(120%);
-    content: url(../multimedia/cardigan2.jpeg);
-}
-.item4:hover{
-    transform: scale(1.1);
-    filter: brightness(120%);
-    content: url(../multimedia/sueterflores2.jpeg);
-}
-.item5:hover{
-    transform: scale(1.1);
-    filter: brightness(120%);
-    content: url(../multimedia/sueterrombos2.jpeg);
-}
-.item6:hover{
-    transform: scale(1.1);
-    filter: brightness(120%);
-    content: url(../multimedia/basicanegra2.jpeg);
-}
-.pasapaginas{
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-}
-.btn{
-    background-color: #E1DDD3;
-    color: #302B2D;
-}
-.btn:hover{
-    background-color: #302B2D;
-    color: #dab89d;
-}
-/* termina CSS shop online */
 
-/* empieza CSS ayuda */
-.accordion-body{
-    background-color:#E1DDD3;
-    color: #302B2D;
-    padding: 20px;
-    line-height: 2.0;
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
+.menu {
+  list-style-type: none;
+  display: flex;
+  padding: 5px;
 }
-.accordion-item{
-    background-color: #E1DDD3;
-}
-.accordion-button{
-    background-color: #302B2D;
-    color: #E1DDD3;
-}
-.accordion-button:focus{
-    background-color: #302B2D;
-    color: #E1DDD3;
-}
-.accordion-button:not(:focus){
-    background-color: #302B2D;
-    color: #E1DDD3;
-}
-.formulario{
-    width: 600px;
-    height: 800px;
-    text-align: center;
-    line-height: 2.0;
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    padding: 10px;
-    margin: 0 auto;
-}
-.nombre{
-    padding: 10px;
-    color:rgb(48,43,45);
-}
-.apellido{
-    padding: 10px;
-}
-.email{
-    padding: 10px;
-}
-/* termina CSS ayuda */
 
-/* empieza CSS nosotros */
-.nosotros p{
-    color: #A47C66;
-    padding: 20px;
-    line-height: 2.0;
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    text-align: center;
+.link {
+  color: #dab89d;
+  text-decoration: none;
+  padding: 1rem;
+  text-align: center;
+  font-family: "Gloock", serif;
+  font-weight: 5px;
+  font-style: normal;
 }
-.sucursales{
-    padding-left: 20px;
-    
-}
-.sucur{
-    text-decoration: none;
-}
-.sublinks{
-    list-style-type: none;
-}
-.contact{
-    text-align: left;
-}
-/* termina CSS nosotros */
 
-/* empieza CSS sale */
+.link:hover {
+  background-color: #dab89d;
+  color: #302B2D;
+  border-radius: 10px;
+}
+
+.breadcrumb {
+  padding: 5px;
+}
+.breadcrumb .breadcrumb-item a {
+  text-decoration: none;
+  color: #302B2D;
+  font-family: "Gloock", serif;
+}
+
+footer {
+  width: 100%;
+  height: 180px;
+  background: #302B2D;
+  background: linear-gradient(90deg, rgb(48, 43, 45) 0%, rgb(164, 124, 102) 35%, rgb(225, 221, 211) 100%);
+  padding: 20px;
+  border: solid #302B2D 5px;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+footer .logoFooter {
+  width: 120px;
+  height: 120px;
+}
+footer .redes {
+  list-style-type: none;
+}
+footer .insta {
+  padding: 5px;
+}
+footer .twitter {
+  padding: 5px;
+}
+footer .facebook {
+  padding: 5px;
+}
+footer .fraseFooter {
+  font-family: "Gloock", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.encabezado {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #E1DDD3;
+  border: 3px #302B2D;
+}
+.encabezado h2 {
+  color: #A47C66;
+}
+
+#carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.carousel-inner {
+  width: 60vw;
+  height: 70vh;
+}
+
+.galeria {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card {
+  width: 18rem;
+  background-color: #A47C66;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: large;
+  color: #302B2D;
+  margin: 10px;
+  border: solid 3px;
+  display: flex;
+  align-items: center;
+}
+
+.item1, .item6, .item5, .item4, .item3, .item2 {
+  width: 17.7rem;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+
+.item1:hover, .item2:hover, .item3:hover, .item4:hover, .item5:hover, .item6:hover {
+  transform: scale(1.1);
+  filter: brightness(120%);
+  content: url(../multimedia/basicablanca2.jpg);
+}
+
+.item2:hover {
+  transform: scale(1.1);
+  filter: brightness(120%);
+  content: url(../multimedia/sueterrosa2.jpg);
+}
+
+.item3:hover {
+  transform: scale(1.1);
+  filter: brightness(120%);
+  content: url(../multimedia/cardigan2.jpg);
+}
+
+.item4:hover {
+  transform: scale(1.1);
+  filter: brightness(120%);
+  content: url(../multimedia/sueterflores2.jpg);
+}
+
+.item5:hover {
+  transform: scale(1.1);
+  filter: brightness(120%);
+  content: url(../multimedia/sueterrombos2.jpg);
+}
+
+.item6:hover {
+  transform: scale(1.1);
+  filter: brightness(120%);
+  content: url(../multimedia/basicanegra2.jpg);
+}
+
+.pasapaginas {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.btn {
+  background-color: #E1DDD3;
+  color: #302B2D;
+}
+
+.btn:hover {
+  background-color: #302B2D;
+  color: #dab89d;
+}
+
+.accordion {
+  width: 70%;
+  margin: 0 auto;
+}
+.accordion .accordion-body {
+  background-color: #E1DDD3;
+  color: #302B2D;
+  padding: 20px;
+  line-height: 2;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.accordion .accordion-item {
+  background-color: #E1DDD3;
+}
+.accordion .accordion-button {
+  background-color: #302B2D;
+  color: #E1DDD3;
+}
+.accordion .accordion-button:focus {
+  background-color: #302B2D;
+  color: #E1DDD3;
+}
+.accordion .accordion-button:not(:focus) {
+  background-color: #302B2D;
+  color: #E1DDD3;
+}
+
+.formulario {
+  width: 60%;
+  margin: 0 auto;
+  padding: 5px;
+  font-family: "Montserrat", sans-serif;
+  background-color: #e1d6d3;
+}
+.formulario .formMail {
+  padding: 5px;
+}
+.formulario .formPass {
+  padding: 10px;
+}
+.formulario .comments {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.formulario .buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+.formulario .buttons .formButton {
+  background-color: #E1DDD3;
+  border: #A47C66 solid 2px;
+  color: #302B2D;
+}
+
+.nosotros {
+  width: 70%;
+  margin: 0 auto;
+}
+.nosotros p {
+  color: #dab89d;
+  background-color: #302B2D;
+  padding: 20px;
+  line-height: 2;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  border: 2px solid #302B2D;
+  border-radius: 10px;
+}
+
+.sucursales {
+  padding-left: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.sucur {
+  text-decoration: none;
+}
+
+.sublinks {
+  list-style-type: none;
+}
+
+.contact {
+  text-align: left;
+}
 
 .saleContainer {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-auto-columns: 1fr;
-    gap: 5px 5px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "article1 article2 article3"
-      "article1 article2 article3"
-      "publish publish publish";
-  }
-  
-  .article1 {
-    grid-area: article1;
-    width: 33vw;
-    height: 70vh;
-    background-image: url(../multimedia/imagen\ silla.jpeg);
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  gap: 5px 5px;
+  grid-auto-flow: row;
+  grid-template-areas: "article1 article2 article3" "article1 article2 article3" "publish publish publish";
 }
-  .article2 { grid-area: article2;
-    width: 33vw;
-    height: 70vh;
-    background-image: url(../multimedia/imagen\ ropa\ mesa.jpeg);
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
+
+.article1 {
+  grid-area: article1;
+  width: 33vw;
+  height: 70vh;
+  background-image: url(../multimedia/imagen\ silla.jpeg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
 }
-  
-  .article3 { grid-area: article3;
-    width: 33vw;
-    height: 70vh;
-    background-image: url(../multimedia/basicanegra3.jpeg);
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
+
+.article2 {
+  grid-area: article2;
+  width: 33vw;
+  height: 70vh;
+  background-image: url(../multimedia/imagen\ ropa\ mesa.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
 }
-  
-  .publish { grid-area: publish;
-    background-color: #A47C66;
-    width: 100vw;
-    height: 30vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
- }
- .article1 h1{
-    background-color: #e1d6d3;
-    border-radius: 3px;   
+
+.article3 {
+  grid-area: article3;
+  width: 33vw;
+  height: 70vh;
+  background-image: url(../multimedia/basicanegra3.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
 }
-.article1 h1:hover{
-    transform: scale(1.5);
+
+.publish {
+  grid-area: publish;
+  background-color: #A47C66;
+  width: 100vw;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
-.article2 h1{
-    background-color: #e1d6d3;
-    border-radius: 3px;   
+
+.article1 h1 {
+  background-color: #E1DDD3;
+  border-radius: 3px;
 }
-.article2 h1:hover{
-    transform: scale(1.5);
+
+.article1 h1:hover {
+  transform: scale(1.5);
 }
-.article3 h1{
-    background-color: #e1d6d3;
-    border-radius: 3px;   
+
+.article2 h1 {
+  background-color: #e1d6d3;
+  border-radius: 3px;
 }
-.article3 h1:hover{
-    transform: scale(1.5);
+
+.article2 h1:hover {
+  transform: scale(1.5);
 }
-.publish h2{
-    text-align: center;
-    color: #E1DDD3;
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
+
+.article3 h1 {
+  background-color: #e1d6d3;
+  border-radius: 3px;
 }
-/* termina CSS sale */
+
+.article3 h1:hover {
+  transform: scale(1.5);
+}
+
+.publish h2 {
+  text-align: center;
+  color: #E1DDD3;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
 
 /* querries para formato mobile */
-@media screen and (max-width:420px){
-    /* querries para page sale */
-    .saleContainer {
-        padding: 5px;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        gap: 3px;
-        grid-template-areas:
-          "article1 article1"
-          "article2 article2"
-          "article3 article3" 
-          "publish publish";
-      }
-      .article1{
-        flex:1 1 auto;
-        width: 100%;
-      }
-      .article2{
-        flex:1 1 auto;
-        width: 100%;
-      }
-      .article3{
-        flex:1 1 auto;
-        width: 100%;
-      }
-      .articles{
-        flex-direction: column;
-        align-items: center;
-      }
-      .publish h1{
-        font-size: large;
-        line-height: 1.5;
-      }
-      .publish h2{
-        font-size: small;
-        line-height: 1.5;
-      }
-      /* termina querrie para page sale */
-
-      /* empieza querrie para footer */
-      .redes{
-        margin-bottom: 20px;
-      }
-      .redes li{
-        display: inline-block;
-        margin: 0 5px;
-      }
-      .logofooter{
-        width: 70px;
-        height: 70px;
-      }
-      /* termina querrie para footer */
-
-      /* empieza querrie para nav */
-      .nav{
-        flex-direction: column;
-        height: auto;
-        padding: 5px;
-      }
-      .menu{
-        flex-direction: column;
-        padding: 0;
-      }
-      .link{
-        padding: 5px;
-        text-align: center;
-        font-size: medium;
-      }
-      .galeria{
-        display: inline-block;
-        padding-left: 60px;
-      }
-      /* termina querrie para nav */
-
+@media screen and (max-width: 420px) {
+  /* empieza querrie para nav */
+  .nav {
+    flex-direction: column;
+    height: auto;
+    padding: 5px;
+  }
+  .menu {
+    flex-direction: column;
+    padding: 0;
+  }
+  .link {
+    padding: 5px;
+    text-align: center;
+    font-size: medium;
+  }
+  .galeria {
+    display: inline-block;
+    padding-left: 60px;
+  }
+  /* termina querrie para nav */
+  #carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
+  .carousel-inner {
+    width: auto;
+    height: auto;
+  }
+  .formulario {
+    width: 70vw;
+  }
+  /* querries para page sale */
+  .saleContainer {
+    padding: 5px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 3px;
+    grid-template-areas: "article1 article1" "article2 article2" "article3 article3" "publish publish";
+  }
+  .article1 {
+    flex: 1 1 auto;
+    width: 100%;
+  }
+  .article2 {
+    flex: 1 1 auto;
+    width: 100%;
+  }
+  .article3 {
+    flex: 1 1 auto;
+    width: 100%;
+  }
+  .articles {
+    flex-direction: column;
+    align-items: center;
+  }
+  .publish h1 {
+    font-size: large;
+    line-height: 1.5;
+  }
+  .publish h2 {
+    font-size: small;
+    line-height: 1.5;
+  }
+  /* termina querrie para page sale */
+  /* empieza querrie para footer */
+  footer .redes {
+    margin-bottom: 20px;
+  }
+  footer .redes li {
+    display: inline-block;
+    margin: 0 5px;
+  }
+  footer .logoFooter {
+    width: 70px;
+    height: 70px;
+  }
+  /* termina querrie para footer */
 }
-  
-  
-  
 
+/*# sourceMappingURL=estilo.css.map */

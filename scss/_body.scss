@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: $colorCuatro;  
+}
+h1{
+    color: $colorUno;
+    text-align: center;
+    font-family: "Gloock", serif;
+    font-style: normal;
+    font-size: xx-large;
+    padding: 10px;
+}
+h2{
+    padding: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: x-large;
+    font-style: normal;
+    text-align: center;
+
+}
+h3{
+    padding: 10px;
+    font-family: "Gloock", serif;
+    font-optical-sizing: auto;
+    font-size: large;
+    text-align: center; 
+}

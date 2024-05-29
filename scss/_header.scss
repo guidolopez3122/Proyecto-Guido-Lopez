@@ -1,0 +1,42 @@
+.nav{
+    background-color: $colorUno;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    width: 105px;
+    height: 105px;
+    padding: 10px;
+}
+.menu{
+    list-style-type: none;
+    display: flex;
+    padding: 5px;
+}
+.link{
+    color:$colorTres;
+    text-decoration: none;
+    padding: 1rem;
+    text-align: center;
+    font-family: "Gloock", serif;
+    font-weight: 5px;
+    font-style: normal;
+}
+.link:hover{
+    background-color: $colorTres;
+    color: $colorUno;
+    border-radius: 10px;
+}
+.breadcrumb{
+    padding: 5px;
+
+    .breadcrumb-item a{
+        text-decoration: none;
+        color:$colorUno;
+        font-family: "Gloock", serif;
+    }
+}
+

@@ -1,0 +1,80 @@
+.galeria{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    width: 18rem;
+    background-color:$colorDos;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size:large;
+    color: $colorUno;
+    margin: 10px;
+    border: solid 3px;
+    display: flex;
+    align-items: center;
+}
+.item1{
+    width:17.7rem;
+    border-radius: 5px;
+    transition: transform 0.3s ease;  
+}
+.item2{
+    @extend .item1; 
+}
+.item3{
+    @extend .item1;  
+}
+.item4{
+    @extend .item1;  
+}
+.item5{
+    @extend .item1;   
+}
+.item6{
+    @extend .item1; 
+}
+.item1:hover{
+            transform: scale(1.1);
+            filter: brightness(120%);
+            content: url(../multimedia/basicablanca2.jpg);  
+}
+.item2:hover{
+    transform: scale(1.1);
+    filter: brightness(120%);
+    content: url(../multimedia/sueterrosa2.jpg);
+}
+.item3:hover{
+    transform: scale(1.1);
+    filter: brightness(120%);
+    content: url(../multimedia/cardigan2.jpg);
+}
+.item4:hover{
+    transform: scale(1.1);
+    filter: brightness(120%);
+    content: url(../multimedia/sueterflores2.jpg);
+}
+.item5:hover{
+    transform: scale(1.1);
+    filter: brightness(120%);
+    content: url(../multimedia/sueterrombos2.jpg);
+}
+.item6:hover{
+    transform: scale(1.1);
+    filter: brightness(120%);
+    content: url(../multimedia/basicanegra2.jpg);
+}
+.pasapaginas{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.btn{
+    background-color: $colorCinco;
+    color: $colorUno;
+}
+.btn:hover{
+    background-color: $colorUno;
+    color: $colorTres;
+}

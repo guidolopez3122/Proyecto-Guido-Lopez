@@ -1,0 +1,98 @@
+/* querries para formato mobile */
+@media screen and (max-width:420px){
+        /* empieza querrie para nav */
+        .nav{
+          flex-direction: column;
+          height: auto;
+          padding: 5px;
+        }
+        .menu{
+          flex-direction: column;
+          padding: 0;
+        }
+        .link{
+          padding: 5px;
+          text-align: center;
+          font-size: medium;
+        }
+        .galeria{
+          display: inline-block;
+          padding-left: 60px;
+        }
+        /* termina querrie para nav */
+
+        // empieza querrie para home
+        #carousel{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 10px;
+      
+      }
+      .carousel-inner{
+          width: auto;
+          height: auto;
+      }
+
+        // termina querrie para home
+
+        // empieza querrie para ayuda
+        .formulario{
+          width: 70vw; 
+      }
+        // termina querrie para ayuda
+
+        /* querries para page sale */
+        .saleContainer {
+        padding: 5px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 3px;
+        grid-template-areas:
+          "article1 article1"
+          "article2 article2"
+          "article3 article3" 
+          "publish publish";
+      }
+      .article1{
+        flex:1 1 auto;
+        width: 100%;
+      }
+      .article2{
+        flex:1 1 auto;
+        width: 100%;
+      }
+      .article3{
+        flex:1 1 auto;
+        width: 100%;
+      }
+      .articles{
+        flex-direction: column;
+        align-items: center;
+      }
+      .publish h1{
+        font-size: large;
+        line-height: 1.5;
+      }
+      .publish h2{
+        font-size: small;
+        line-height: 1.5;
+      }
+      /* termina querrie para page sale */
+
+      /* empieza querrie para footer */
+      footer{
+        .redes{
+          margin-bottom: 20px;
+        }
+        .redes li{
+          display: inline-block;
+          margin: 0 5px;
+        }
+        .logoFooter{
+          width: 70px;
+          height: 70px;
+        }  
+      }
+      /* termina querrie para footer */
+}

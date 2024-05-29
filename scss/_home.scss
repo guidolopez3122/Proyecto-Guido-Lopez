@@ -1,0 +1,21 @@
+.encabezado{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: $colorCinco;
+    border: 3px $colorUno;
+    
+    h2{
+        color:$colorDos;
+    }
+}
+#carousel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.carousel-inner{
+    width: 60vw;
+    height: 70vh;
+}

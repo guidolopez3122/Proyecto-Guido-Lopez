@@ -1,0 +1,30 @@
+.nosotros{
+    width: 70%;
+    margin: 0 auto;
+    p{
+    color: $colorTres;
+    background-color: $colorUno;
+    padding: 20px;
+    line-height: 2.0;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    border: 2px solid $colorUno;
+    border-radius: 10px;
+    }   
+}
+.sucursales{
+    padding-left: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+.sucur{
+    text-decoration: none;
+}
+.sublinks{
+    list-style-type: none;
+}
+.contact{
+    text-align: left;
+}

@@ -1,0 +1,63 @@
+.accordion{
+    width: 70%;
+    margin: 0 auto;
+
+    .accordion-body{
+        background-color:$colorCinco;
+        color: $colorUno;
+        padding: 20px;
+        line-height: 2.0;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+    }
+    .accordion-item{
+        background-color: $colorCinco;
+    }
+    .accordion-button{
+        background-color: $colorUno;
+        color: $colorCinco;
+    }
+    .accordion-button:focus{
+        background-color:$colorUno;
+        color: $colorCinco;
+    }
+    .accordion-button:not(:focus){
+        background-color: $colorUno;
+        color: $colorCinco;
+    }
+}
+.formulario{
+    width: 60%;
+    margin: 0 auto;
+    padding: 5px;
+    font-family: "Montserrat", sans-serif;
+    background-color: $colorCuatro;
+   
+    .formMail{
+        padding: 5px;
+        
+    }
+    .formPass{
+        padding: 10px;
+        
+    }
+    .comments{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .buttons{
+        display: flex;
+        justify-content: space-evenly;
+
+        .formButton{
+            background-color: $colorCinco;
+            border: $colorDos solid 2px;
+            color:$colorUno;
+        }
+    }
+}
+
+
