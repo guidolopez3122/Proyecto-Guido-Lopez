@@ -114,15 +114,27 @@ footer .fraseFooter {
   font-style: normal;
 }
 
-.encabezado {
+.tituloUno {
   width: 70%;
+  color: #A47C66;
+  background-color: #e1d6d3;
+  border: 3px #302B2D;
   margin: 0 auto;
   text-align: center;
-  background-color: #E1DDD3;
-  border: 3px #302B2D;
+  font-family: "Gloock", serif;
+  font-style: normal;
+  font-size: x-large;
 }
-.encabezado h2 {
-  color: #A47C66;
+
+.tituloDos {
+  width: 60%;
+  color: #E1DDD3;
+  background-color: #A47C66;
+  border: 5px #A47C66;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Gloock", serif;
+  font-size: x-large;
 }
 
 #carousel {
@@ -485,6 +497,15 @@ footer .fraseFooter {
     height: 70px;
   }
   /* termina querrie para footer */
+}
+@media screen and (max-width: 320px) {
+  .card {
+    width: 12rem;
+  }
+  .item1, .item2, .item3, .item4, .item5, .item6 {
+    width: 12rem;
+    height: 15rem;
+  }
 }
 
 /*# sourceMappingURL=estilo.css.map */

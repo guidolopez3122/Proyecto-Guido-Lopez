@@ -1,13 +1,21 @@
-.encabezado{
-    width: 70%;
+@mixin titulos($ancho, $color, $bg, $borde){
+    width: $ancho;
+    color: $color;
+    background-color: $bg;
+    border: $borde;
     margin: 0 auto;
     text-align: center;
-    background-color: $colorCinco;
-    border: 3px $colorUno;
-    
-    h2{
-        color:$colorDos;
-    }
+}
+.tituloUno{
+    @include titulos(70%, $colorDos, $colorCuatro, 3px $colorUno);
+    font-family: "Gloock", serif;
+    font-style: normal;
+    font-size: x-large;
+}
+.tituloDos{
+    @include titulos(60%, $colorCinco, $colorDos, 5px $colorDos);
+    font-family: "Gloock", serif;
+    font-size: x-large;
 }
 #carousel{
     display: flex;

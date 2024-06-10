@@ -96,3 +96,15 @@
       }
       /* termina querrie para footer */
 }
+// empieza media querrie para mobile 320px
+@media screen and (max-width:320px){
+  .card{
+    width: 12rem;
+
+  }
+  .item1{
+    width: 12rem;
+    height: 15rem;
+  }
+}
+// termina media querrie para mobile 320px
